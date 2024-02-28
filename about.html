@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - The Magic of Music</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap">
+    <style>
+        /* Include the same styles as in the main page */
+        /* Add specific styles for the About page below */
+        body {
+            font-family: 'Ubuntu', sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin-right: 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #222;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Animation for the heading text */
+        header h1 {
+            animation: moveText 2s infinite alternate ease-in-out;
+        }
+
+        @keyframes moveText {
+            from {
+                transform: translateX(-2px);
+            }
+            to {
+                transform: translateX(2px);
+            }
+        }
+
+        /* Animation for the main content text on the about page */
+        main h2 {
+            animation: moveTextAbout 2s infinite alternate ease-in-out;
+        }
+
+        @keyframes moveTextAbout {
+            from {
+                transform: translateY(-2px);
+            }
+            to {
+                transform: translateY(2px);
+            }
+        }
+
+        main p {
+            font-size: 1.2em;
+            line-height: 1.8;
+            margin-bottom: 20px; /* Add margin for spacing */
+        }
+
+        /* Style for the new text box */
+        .textbox {
+            background-color: #fff;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px; /* Add margin for spacing */
+            text-align: left;
+        }
+
+        /* Style for the images */
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px; /* Add margin for spacing */
+        }
+
+        .image-container img {
+            width: 300px; /* Adjust image width */
+            height: auto;
+            border-radius: 10px;
+            margin: 0 10px; /* Add margin between images */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add shadow */
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>The Magic of Music</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="game.html">Game</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>About Us</h2>
+        <!-- New text box -->
+        <div class="textbox">
+            <p>This year, we began The Magic of Music as just a way for our robotics team to help others. Now, it has grown into much more than that. We hope to spread our love of music to people around the world, starting with our local community. If you would like to try out one of our Magic Pianos, or have us come for a visit, go to the Contact page for more info.</p>
+        </div>
+
+        <!-- Images -->
+        <div class="image-container">
+            <img src="help1.jpg" alt="Help Image 1">
+            <img src="help2.jpg" alt="Help Image 2">
+            <img src="help3.jpg" alt="Help Image 3">
+        </div>
+
+        <!-- Navigation links to other pages -->
+        <p>Explore more: <a href="index.html">Home</a>, <a href="products.html">Products</a>, <a href="contact.html">Contact</a>, <a href="game.html">Game</a></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 The Magic of Music. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
